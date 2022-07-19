@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: Poppins, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    /* margin: 0 5px; */
+    padding: 5px 20px;
+    border: 1px solid lightgray;
+}
+
+nav a {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight:600;
+    text-transform:capitalize;
+}
+
+header {
+    /* border: 1px solid dodgerblue; */
+    display:flex;
+    justify-content: space-between;
+}
+
+
+nav a {
+    text-decoration: none;
+}
